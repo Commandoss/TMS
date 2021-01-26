@@ -1,0 +1,203 @@
+body {
+    background: #FDFDFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper .wrapper_side {
+    background: #FDFDFF;
+    border: 1px solid #EBEBEB;
+}
+
+.wrapper .wrapper_side .vk-icon {
+    background: -webkit-gradient(linear, left top, left bottom, from(#7f7fd5), to(#e786d7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #7f7fd5;
+}
+
+.wrapper .wrapper_side .nav_side_icons .nav_link-1:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-1:visited,
+.wrapper .wrapper_side .nav_side_icons .nav_link-2:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-2:visited,
+.wrapper .wrapper_side .nav_side_icons .nav_link-3:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-3:visited,
+.wrapper .wrapper_side .nav_side_icons .nav_link-4:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-4:visited,
+.wrapper .wrapper_side .nav_side_icons .nav_link-5:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-5:visited,
+.wrapper .wrapper_side .nav_side_icons .nav_link-6:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-6:visited,
+.wrapper .wrapper_side .nav_side_icons .nav_link-7:link,
+.wrapper .wrapper_side .nav_side_icons .nav_link-7:visited {
+    color: #DFE6F1;
+}
+
+/*начало main*/
+
+.wrapper .wrapper_main {
+    background: #EFF3F9;
+}
+
+.wrapper .wrapper_main .content-nav {
+
+}
+
+.wrapper .wrapper_main .content-nav .nav_headline {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .content-nav .search_line {
+    background: #FDFDFF;
+    border-radius: 8px;
+    border: 1px solid #EBEBEB;
+}
+
+.wrapper .wrapper_main .content-nav .search_line .search-link {
+    color: #979797;
+
+}
+
+.wrapper .wrapper_main .content-nav .bell-link {
+    color: #979797;
+}
+
+
+.wrapper .wrapper_main .main_account {
+
+}
+
+.wrapper .wrapper_main .main_account .account_name {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .main_account .account_swipe_menu {
+    color: #5B5B5B;
+}
+
+.wrapper .wrapper_main .main_content_grid {
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people {
+}
+
+/*.wrapper .wrapper_main .main_content_grid .grid_people div {*/
+
+/*}*/
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people-1,
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people-2,
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people-3 {
+    background: #FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-1 {
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-1 .grid_people_headline {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-1 .grid_people_content_arrow {
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-1 .grid_people_content_arrow i {
+    color: #979797;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 {
+
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 .grid_people_content_text {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 .grid_people_content_percents {
+    color: #979797;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 .grid_people_content_arrow {
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 .grid_people_content_arrow .arrow-link-1 {
+    color: #7f7fd5;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 .grid_people_content_arrow .arrow-link-2 {
+    color: #e786d7;
+}
+
+.wrapper .wrapper_main .main_content_grid .grid_people .grid_people_content-2 .grid_people_content_arrow .arrow-link-3 {
+    color: #7f7fd5;
+}
+
+/*GRID HEADER*/
+
+.wrapper .wrapper_main .grid_header {
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience {
+    background: #FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info {
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_headline {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_data {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_selectbox {
+
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_selectbox .checkbox-1 {
+
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_selectbox .checkbox-2 {
+
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_selectbox .selectbox_type-1 {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .grid_header .grid_audience .grid_audience_info .audience_info_selectbox .selectbox_type-2 {
+    color: #4F4F4F;
+}
+
+.wrapper .wrapper_main .grid_header .grid_reach {
+    background: #FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}
+
+/*GRID FOOTER*/
+
+.wrapper .wrapper_main .grid_footer {
+}
+
+.wrapper .wrapper_main .grid_footer .grid_gender {
+}
+
+.wrapper .wrapper_main .grid_footer .grid_geo {
+}
+
+.wrapper .wrapper_main .grid_footer .grid_gender,
+.wrapper .wrapper_main .grid_footer .grid_geo {
+    background: #FDFDFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 13px;
+}

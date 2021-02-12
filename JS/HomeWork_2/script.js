@@ -59,6 +59,7 @@ else {
         else if ((+x == 0) && (+y < 0)) alert('Between III and II quadrants');
         else if ((+x > 0) && (+y == 0)) alert('Between I and II quadrants');
         else if ((+x < 0) && (+y == 0)) alert('Between IV and III quadrants');
+        
     }
 }
 

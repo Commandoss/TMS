@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb62815-729b-44c0-b75e-5bcb9830fd29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/JS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_2/.idea/HomeWork_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HomeWork_2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/HomeWork_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork_2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_2/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HomeWork_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HomeWork_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/script.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+            <state relative-caret-position="77">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -78,7 +72,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="91" />
+    <option name="y" value="25" />
     <option name="width" value="1680" />
     <option name="height" value="979" />
   </component>
@@ -90,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +99,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,24 +149,26 @@
       <workItem from="1612195497418" duration="2197000" />
       <workItem from="1612203596030" duration="1920000" />
       <workItem from="1612450229167" duration="278000" />
-      <workItem from="1612450539767" duration="8713000" />
+      <workItem from="1612450539767" duration="8955000" />
+      <workItem from="1612806830589" duration="54000" />
+      <workItem from="1613160561733" duration="3000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13108000" />
+    <option name="totallyTimeSpent" value="13407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="91" width="1680" height="979" extended-state="0" />
+    <frame x="0" y="25" width="1680" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26495728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5289444" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5289444" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -190,18 +186,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/script.js</url>
-          <line>142</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../HomeWork_1/index.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -215,8 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        <state relative-caret-position="77">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>

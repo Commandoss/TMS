@@ -1,0 +1,36 @@
+body {
+    background: #4D5052;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    height: 1000px;
+    width: 800px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    margin: 0px;
+    height: 500px;
+    width: 400px;
+    background: #8B9094;
+    border: 5px solid #8B9094;
+}
+
+.calculator-monitor {
+    height: 100px;
+    width: 400px;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.monitor {
+    width: 400px;
+    padding: 0;
+}

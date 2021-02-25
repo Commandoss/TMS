@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator-monitor">
+                <h2 class="monitor" id="input-output"></h2>
+            </div>
+            <div class="calculator-claviatura">
+                <div class="first-row">
+                    <button id="b-clear" onclick="clearMonitor()">C</button>
+                    <button id="b-sing" onclick="registersPlus()">+/-</button>
+                    <button id="b-procent" onclick="operation('%')">%</button>
+                    <button id="b-delit" onclick="operation('/')">/</button>
+                </div>
+                <div class="second-row">
+                    <button id="b-seven" onclick="addToMass(7)">7</button>
+                    <button id="b-eigth" onclick="addToMass(8)">8</button>
+                    <button id="b-nine" onclick="addToMass(9)">9</button>
+                    <button id="b-ymno" onclick="operation('*')">*</button>
+                </div>
+                <div class="third-row">
+                    <button id="b-four" onclick="addToMass(4)">4</button>
+                    <button id="b-five" onclick="addToMass(5)">5</button>
+                    <button id="b-six" onclick="addToMass(6)">6</button>
+                    <button id="b-minus" onclick="operation('-')">-</button>
+                </div>
+                <div class="fourth-row">
+                    <button id="b-one" onclick="addToMass(1)">1</button>
+                    <button id="b-two" onclick="addToMass(2)">2</button>
+                    <button id="b-tree" onclick="addToMass(3)">3</button>
+                    <button id="b-plus" onclick="operation('+')">+</button>
+                </div>
+                <div class="fifth-row">
+                    <button id="b-null" onclick="addToMass(0)">0</button>
+                    <button id="b-comma" onclick="registersDot()">.</button>
+                    <button id="b-equally"  onclick="operation('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

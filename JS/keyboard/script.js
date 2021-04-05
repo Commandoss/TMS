@@ -40,21 +40,21 @@ function cursorDel() {
     return num;
 }
 
-function cardOffsetLeft() {
-    let str = document.getElementById('lineOut').innerText
-    let num = str.search("\\|");
-    if (num != 0) {
-        document.getElementById('lineOut').innerHTML = (str.split('').slice(0, num).join('') + '|' + str.split('').slice(num, str.length).join(''));
-    }
-}
-
-function cardOffsetRight() {
-    let str = document.getElementById('lineOut').innerText
-    let num = str.search("\\|");
-    if (num != 0) {
-        document.getElementById('lineOut').innerHTML = (str.split('').slice(0, num).join('') + '|' + str.split('').slice(num, str.length).join(''));
-    }
-}
+// function cardOffsetLeft() {
+//     let str = document.getElementById('lineOut').innerText
+//     let num = str.search("\\|");
+//     if (num != 0) {
+//         document.getElementById('lineOut').innerHTML = (str.split('').slice(0, num).join('') + '|' + str.split('').slice(num, str.length).join(''));
+//     }
+// }
+//
+// function cardOffsetRight() {
+//     let str = document.getElementById('lineOut').innerText
+//     let num = str.search("\\|");
+//     if (num != 0) {
+//         document.getElementById('lineOut').innerHTML = (str.split('').slice(0, num).join('') + '|' + str.split('').slice(num, str.length).join(''));
+//     }
+// }
 
 function clearOutputLine() {
     document.getElementById('lineOut').innerHTML = '';
@@ -125,12 +125,12 @@ function outputButinLine(event) {
             document.getElementById('lineOut').innerText += '\    ';
         } else if (event.target.id === 'arrowRight') {
             positionCursor++;
-            cardOffsetRight()
+            // cardOffsetRight()
         } else if (event.target.id ==='arrowLeft') {
             positionCursor--;
-            cardOffsetLeft()
+            // cardOffsetLeft()
         } else if (event.target.id === 'EnterId') {
-            document.getElementById('lineOut').innerText = '';
+            inputHistory()
         } else if (event.target.id < 48 && event.target.id >= 0) {
             document.getElementById('lineOut').innerHTML += event.target.innerText;
             if (flagShift === true) shiftSymbol();
@@ -185,6 +185,10 @@ function capsSymbol() {
         flagCapsLock = false;
         document.getElementById('CapsCircleId').style.background = '#767676';
     }
+
+    if (flagShift === true) {
+        shiftSymbol()
+    }
 }
 
 function shiftSymbol() {
@@ -200,7 +204,7 @@ function shiftSymbol() {
             document.getElementById(String(i)).innerText = document.getElementById(String(i)).textContent.toUpperCase();
         }
         flagShift = true;
-    } else if (flagShift === true) {
+    } else if (flagShift === true && flagCapsLock === false) {
         for (let i = 0; i < 13; i++) {
             document.getElementById(String(i)).innerText = masNum[i];
         }
@@ -223,3 +227,10 @@ function shiftStart() {
     }
 }
 
+function inputHistory() {
+    let ulID = document.getElementById('historyListId')
+    let liID = document.createElement('li');
+    liID.innerHTML = document.getElementById('lineOut').innerHTML;
+    ulID.appendChild(liID);
+    document.getElementById('lineOut').innerHTML = ''
+}

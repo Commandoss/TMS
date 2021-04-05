@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background: #282C34;
+    /*display: flex;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-cl {
+    margin-top: 30px;
+    display: table;
+    justify-content: center;
+}
+
+.inputLine {
+    margin: 0 auto;
+    border: 1px solid #BBBBBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 1400px;
+}
+
+.line {
+    white-space: pre-wrap;
+    font-size: 25px;
+    font-family: "Apple Braille", "Open sans";
+    font-weight: normal;
+    color: #EFEFEF;
+}
+
+.keyboard {
+    margin-top: 30px;
+    padding: 0px 50px;
+    /*display: table;*/
+
+}
+
+.keyboard div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numLine button,
+.firstLine button,
+.secondLine button,
+.thirdLine button,
+.fourthline button {
+    flex-grow: 1;
+    height: 50px;
+    background: #EFEFEF;
+    border: 1px solid #767676;
+    z-index: 0;
+}
+
+.numLine button:hover,
+.firstLine button:hover,
+.secondLine button:hover,
+.thirdLine button:hover,
+.fourthline button:hover,
+.space_but button:hover,
+.but_up_down button:hover {
+    background-color: #E0E0E0;
+}
+
+.numLine button:active,
+.firstLine button:active,
+.secondLine button:active,
+.thirdLine button:active,
+.fourthline button:active,
+.space_but button:active,
+.but_up_down button:active {
+    outline: #767676;
+    background-color: #D9D9D9;
+}
+
+.numLine button:focus,
+.firstLine button:focus,
+.secondLine button:focus,
+.thirdLine button:focus,
+.fourthline button:focus,
+.space_but button:focus,
+.but_up_down button:focus {
+    outline: none;
+    background-color: #EFEFEF;
+}
+
+.numLine button:focus:hover,
+.firstLine button:focus:hover,
+.secondLine button:focus:hover,
+.thirdLine button:focus:hover,
+.fourthline button:focus:hover,
+.space_but button:focus:hover,
+.but_up_down button:focus:hover {
+    outline: none;
+    background-color: #E0E0E0;
+}
+
+.numLine button:focus:hover:active,
+.firstLine button:focus:hover:active,
+.secondLine button:focus:hover:active,
+.thirdLine button:focus:hover:active,
+.fourthline button:focus:hover:active,
+.space_but button:focus:hover:active,
+.but_up_down button:focus:hover:active {
+    outline: #767676;
+    background-color: #D9D9D9;
+}
+
+
+.but_up_down {
+    margin: 0 auto;
+    flex-flow: column;
+}
+
+.but_up_down button {
+    margin: 0 auto;
+    height: 25px;
+    width: 70px;
+}
+
+.space_but {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.CapsCircle {
+    position: absolute;
+    z-index: 3;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 1px solid #767676;
+    background: #767676;
+    margin: 0px 1270px 18px 0px;
+}
+
+.historyInput {
+    height: 700px;
+    width: 1200px;
+    margin: 50px auto;
+    background: #282C34;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+
+
+
+

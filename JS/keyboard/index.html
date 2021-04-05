@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+</head>
+<body>
+<div class="main-cl">
+    <div class="inputLine">
+        <h2 class="line" id="lineOut"></h2>
+    </div>
+    <div class="keyboard">
+        <div class="numLine">
+            <button id="0">§</button>
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="10">0</button>
+            <button id="11">-</button>
+            <button id="12">=</button>
+            <button class="backS" id="deleteBut">Backspace</button>
+        </div>
+        <div class="firstLine">
+            <button id="TabId">Tab</button>
+            <button id="13">q</button>
+            <button id="14">w</button>
+            <button id="15">e</button>
+            <button id="16">r</button>
+            <button id="17">t</button>
+            <button id="18">y</button>
+            <button id="19">u</button>
+            <button id="20">i</button>
+            <button id="21">o</button>
+            <button id="22">p</button>
+            <button id="23">[</button>
+            <button id="24"> ]</button>
+            <button class="EnterBut" id="EnterId">Enter</button>
+        </div>
+        <div class="secondLine">
+            <div class="CapsCircle" id="CapsCircleId"></div>
+            <button onclick="capsSymbol()" id="CapsLId" class="CapsLBut">CapsLock</button>
+            <button id="25">a</button>
+            <button id="26">s</button>
+            <button id="27">d</button>
+            <button id="28">f</button>
+            <button id="29">g</button>
+            <button id="30">h</button>
+            <button id="31">j</button>
+            <button id="32">k</button>
+            <button id="33">l</button>
+            <button id="34">;</button>
+            <button id="35">'</button>
+            <button id="36">\</button>
+        </div>
+        <div class="thirdLine">
+            <button onclick="shiftSymbol()" id="rightSId">Shift</button>
+            <button id="37">`</button>
+            <button id="38">z</button>
+            <button id="39">x</button>
+            <button id="40">c</button>
+            <button id="41">v</button>
+            <button id="42">b</button>
+            <button id="43">n</button>
+            <button id="44">m</button>
+            <button id="45">,</button>
+            <button id="46">.</button>
+            <button id="47">/</button>
+            <button onclick="shiftSymbol()" id="leftSId">Left Shift</button>
+        </div>
+        <div class="fourthline">
+            <button id="FnId" onclick="changeLanguage()">fn</button>
+            <button id="controlLeftId">control</button>
+            <button id="optionLeftId">option</button>
+            <button id="commandLeftId">command</button>
+            <div class="space_but">
+                <button id="probelId"></button>
+            </div>
+            <button id="commandRightId">command</button>
+            <button id="optionRightId">option</button>
+            <button id="arrowLeft">←</button>
+            <div class="but_up_down">
+                <button id="55">↑</button>
+                <button id="56">↓</button>
+            </div>
+            <button id="arrowRight">→</button>
+        </div>
+    </div>
+    <div class="historyInput">
+        <ul class="historyList" id="historyListId">
+
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
